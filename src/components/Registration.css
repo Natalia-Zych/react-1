@@ -1,0 +1,11 @@
+form {
+    width: 400px;
+}
+form>div{
+    display: grid;
+    /* float: left; */
+    grid-template-columns: 1fr 2fr;
+}
+.error{
+    color: red;
+}

@@ -1,0 +1,36 @@
+.btn {
+    width: 200px;
+  /* Reset domyślnych stylów */
+  background-color: #007BFF; /* Kolor tła */
+  color: #FFFFFF;            /* Kolor tekstu */
+  border: none;              /* Usunięcie domyślnej ramki */
+  
+  /* Rozmiar i pozycjonowanie tekstu */
+  padding: 12px 24px;        /* Wewnętrzne odstępy (góra/dół, lewo/prawo) */
+  font-size: 16px;           /* Wielkość czcionki */
+  font-weight: bold;         /* Pogrubienie tekstu */
+  text-align: center;        /* Wyrównanie tekstu do środka */
+  text-decoration: none;     /* Usunięcie podkreślenia (jeśli używasz tagu <a>) */
+  display: inline-block;     /* Odpowiednie zachowanie w układzie strony */
+  
+  /* Estetyka kształtu i cienia */
+  border-radius: 6px;        /* Zaokrąglenie rogów przycisku */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Delikatny cień pod przyciskiem */
+  
+  /* Interakcja z użytkownikiem */
+  cursor: pointer;           /* Zmiana kursora na rączkę */
+  transition: all 0.3s ease; /* Płynne przejście efektów wizualnych */
+}
+
+/* Efekt po najechaniu myszką */
+.btn:hover {
+  background-color: #0056b3; /* Ciemniejszy odcień niebieskiego */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Nieco mocniejszy cień */
+  transform: translateY(-1px); /* Subtelne uniesienie przycisku */
+}
+
+/* Efekt w momencie kliknięcia */
+.btn:active {
+  transform: translateY(1px);  /* Efekt "wciśnięcia" przycisku */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
