@@ -6,6 +6,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import Content from './components/Content'
 import Registration from './components/Registration'
+import UsersList from './components/UsersList'
 import './App.css'
 
 
@@ -17,6 +18,7 @@ function App() {
     <>
       <Header/>
       <Registration/> 
+      <UsersList/>
       {/* <Content/>
       <section id="center">
         <button type="button"
@@ -29,9 +31,9 @@ function App() {
       {/* <section id="next-steps">
         <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum </p>
       </section> */}
-
+{/* 
       <section id="spacer"></section>
-      <Footer/>
+      <Footer/> */}
     </>
   )
 }
